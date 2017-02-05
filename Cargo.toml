@@ -1,0 +1,12 @@
+[package]
+name = "bind_before_connect"
+version = "0.1.1"
+license = "MIT/Apache-2.0"
+authors = ["Michael Mokrysz <hi@46b.it>"]
+repository = "https://github.com/46bit/bind_before_connect.git"
+homepage = "https://github.com/46bit/bind_before_connect"
+readme = "README.md"
+description = "Produces a std::net::TCPStream bound to a specified local address (Unix only)."
+
+[dependencies]
+libc = "0.2.20"
